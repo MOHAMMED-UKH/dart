@@ -1,3 +1,8 @@
+/*
+git add .
+git commit -m "Describe your changes"
+git push
+*/
 void main() {
   print("Hello Dart!");
   //slaw
@@ -40,6 +45,33 @@ void main() {
 
   //Set<dynamic> hamo = {1,'A',false};
   //print(hamo.elementAt(2));
+  /*
+  double num = 3.1;
+  print("Hello $name he is ${year-1}");
+  print("Name is Empty: ${name.isEmpty}");
+  print("Name Ends With ama: ${name.endsWith("ama")}");
+  print("UpperCased Name: ${name.toUpperCase()}");
+  print("Rounded: ${num.round()}");
+  */
+  
+  /*
+  List<String> fruits = ["Apple","Banana","Orange"];
+  print("List Fruits: ${fruits.contains("Apple")}");
+  final fruit = fruits.reversed;
+  print(fruit);
+  fruits.add("Sew");
+  fruits.remove("Apple");
+  print(fruits);
+  */
+
+ Map<String , int> scores={"Ali":90 , "Sara" : 85 , "Omar" : 88};
+  
+  print(scores.containsKey("Omar"));
+
+
+
+
+  
 
 
 }
